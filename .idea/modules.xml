@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/PyCharmProjects/CanadianCalc/.idea/CanadianCalc.iml" filepath="$USER_HOME$/PyCharmProjects/CanadianCalc/.idea/CanadianCalc.iml" />
+      <module fileurl="file://$USER_HOME$/PyCharmProjects/Day2Review/.idea/Day2Review.iml" filepath="$USER_HOME$/PyCharmProjects/Day2Review/.idea/Day2Review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PyCharmProjects.iml" filepath="$PROJECT_DIR$/.idea/PyCharmProjects.iml" />
+    </modules>
+  </component>
+</project>

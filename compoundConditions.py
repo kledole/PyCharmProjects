@@ -5,7 +5,9 @@
 #
 # if: elif ...
 #
-#
+# Tip: When combined: AND takes precedence over OR
+
+
 
 country = input("Enter a country name (USA, Germany, or France)?").upper()
 
@@ -41,18 +43,31 @@ if wonLottery and bigWin :
     print('Contrulations you won a million dollars in the Lottery!')
     print("You can retire...(Don't spend all your money in one place...)")
 
+# If the sport is hockey, and the team is sharks or rangers, display the cup message:
 
 sport = input('Enter your favorite sport:').upper()
-if sport == 'HOCKEY' and team == 'SHARKS' :
+
+if sport == 'HOCKEY' and (team == 'SHARKS' or team == 'RANGERS'):
+    print('Good luck on getting the Stanley Cup, this year!')
+elif team == 'LEAFS' or team == 'RANGERS':
     print('Get season tickets from StubHub!')
-elif team == 'LEAFS' or team == 'SHARKS':
-    print('Good luck on getting the Stanley, this year!')
 else:
     print('Sell your sports Memorobilia on Ebay!')
 
 # Example of or conditional statement
 # True takes precedence on conditions.
 
+# Alternate Method with booleans:
+sportIsHockey = False
+if sport == 'HOCKEY' :
+    sportIsHockey = True
+
+teamIsCorrect = False
+if team == 'SHARKS' or team == 'RANGERS' :
+    teamIsCorrect = True
+
+if sportIsHockey and teamIsCorrect:
+    print('Seriously, good luck getting the cup, ' + team + '!')
 
 
 
