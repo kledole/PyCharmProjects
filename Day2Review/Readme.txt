@@ -1,5 +1,6 @@
-# File: fileAccess.py
+# File:DayTwo.txt
 # Description: resuming review of python programming
+# The following exercises demonstrate the use of turtle drawing library.
 #
 # Prior exercises covered:
 #  - hello world, basic theories about coding and practices for
@@ -24,6 +25,5 @@
 #  - Reading from Files
 #  - Functions
 #  - Error Handling
-
 
 
